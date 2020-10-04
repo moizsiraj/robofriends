@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import CardList from "../components/CardList";
 import SearchBox from "../components/SearchBox";
-import SearchBox from "../components/ErrorBoundary";
+import ErrorBoundary from "../components/ErrorBoundary";
 import "./App.css";
 import Scroll from "../components/scroll";
-import ErrorBoundary from "../components/ErrorBoundary";
 
 class App extends Component {
   constructor() {
